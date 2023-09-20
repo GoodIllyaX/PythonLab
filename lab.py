@@ -4,7 +4,7 @@ item_sword = 0
 question = 0
 troff_dragon = 0
 
-print("Ласкаво просимо до гри!\n\n\n")
+print("Welcome to the console game!\n\n\n")
 
 # Початок історії
 print("Ви опинилися в таємничому світі, де на кожному кроці таємничі пригоди чекають на вас.\n")
