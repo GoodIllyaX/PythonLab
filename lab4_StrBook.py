@@ -175,7 +175,7 @@ while True:
             if 0 <= book_choice < len(books):
                 print("\nВміст книги:")
                 for page in books[book_choice].pages:
-                    if isinstance(page, Page):  # Проверяем тип объекта
+                    if isinstance(page, Page): 
                         print(f"Page ID: {page.get_page_id()}")
                         print(page.content)
                         print()
@@ -184,7 +184,7 @@ while True:
             else:
                 print("Некоректний номер книги.")
         else:
-            print("Немає існуючих книг") #Нет существующих книг
+            print("Немає існуючих книг") 
 
     elif choice == "6":
         print("exit!")
