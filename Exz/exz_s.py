@@ -30,11 +30,6 @@ class ActivityTracker:
         self.create_button("View Statistics", self.view_statistics, 3, 1)
         self.create_button("Visualize Data", self.visualize_data, 3, 2)
 
-    def create_label(self, text, row, column):
-        label = tk.Label(self.root, text=text)
-        label.grid(row=row, column=column, padx=10, pady=10)
-        return label
-
     def create_entry(self, row, column):
         entry = tk.Entry(self.root, width=10)
         entry.grid(row=row, column=column, padx=10, pady=10)
